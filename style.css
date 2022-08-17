@@ -205,16 +205,12 @@ body {
     transform: translateX(10%);
   }
 }
-@media only screen and (min-width: 1024px) {
-  .hero__img img {
-    transform: translateX(0);
-  }
-}
+
 .hero::before {
   content: '';
   display: block;
-  width: 50%;
-  height: 27.7rem;
+  width: 45%;
+  height: 31.25rem;
   position: absolute;
   top: 0;
   right: 0;
