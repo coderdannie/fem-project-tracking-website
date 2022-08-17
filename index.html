@@ -11,13 +11,63 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="style.css" />
+
     <title>Frontend Mentor | Project tracking intro component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    Product Features Pricing Login New Monograph Dashboard Powerful insights
-    into your team Project planning and time tracking for agile teams Schedule a
-    demo to see a live preview
+    <header class="header">
+      <div class="container">
+        <div class="header__logo">
+          <img src="images/logo.svg" alt="project tracking website logo" />
+        </div>
+        <div class="header__bar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__links">
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Features </a></li>
+            <li><a href="#">Pricing</a></li>
+            <li class="header__cta"><a href="#">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="wrapper">
+        <div class="hero__img">
+          <img src="images/illustration-devices.svg" alt="" />
+        </div>
+        <div class="content-wrapper">
+          <div class="hero__content">
+            <div class="hero__new-tag">NEW</div>
+            <p>MONOGRAPH DASHBOARD</p>
+          </div>
+          <div class="hero__text">
+            <h1>POWERFUL INSIGHTS INTO YOUR TEAM</h1>
+            <p>Project planning and time tracking for agile teams</p>
+          </div>
+          <div class="hero__cta-btn">
+            <a class="hero__demo-cta" href="#">SCHEDULE A DEMO</a>
+            <p>TO SEE A PREVIEW</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="main.js"></script>
   </body>
+  <!--  Schedule a demo to see a live preview -->
 </html>
